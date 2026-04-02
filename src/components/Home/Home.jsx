@@ -7,12 +7,11 @@ import Products from '../Products/Products'
 import Discount from '../Discount/Discount'
 import Process from '../Process/Process'
 import Testimonials from '../Testimonial/Testimonials'
-import Footer from '../Footer/Footer'
+
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Category />
       <Values />
@@ -20,7 +19,6 @@ const Home = () => {
       <Discount />
       <Process />
       <Testimonials />
-      <Footer />
     </div>
   )
 }
